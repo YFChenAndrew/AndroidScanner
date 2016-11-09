@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AndroidScaner</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="scan_button">Scan</string>
+    <string name="trash_button">Trash</string>
+</resources>
