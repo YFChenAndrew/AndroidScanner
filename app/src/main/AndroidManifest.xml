@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ScandisplayActivity" />
-        <activity android:name=".TrashdisplayActivity"></activity>
+        <activity android:name=".TrashdisplayActivity" />
+        <activity android:name=".FileChooser"></activity>
     </application>
 
 </manifest>
