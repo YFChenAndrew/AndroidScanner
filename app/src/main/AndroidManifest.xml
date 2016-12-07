@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.androidscaner">
+    package="com.example.androidscaner"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="24" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -17,7 +25,14 @@
         </activity>
         <activity android:name=".ScandisplayActivity" />
         <activity android:name=".TrashdisplayActivity" />
-        <activity android:name=".FileChooser"></activity>
+        <activity
+            android:name=".FileChooser"
+            android:label="Choose File"
+            android:theme="@android:style/Theme.Holo">
+            <action android:name="com.example.androidscaner.FileChooser" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
     </application>
 
 </manifest>

@@ -8,7 +8,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Get File Name From SDCard"
-        android:textSize="18dp"
+        android:textSize="16sp"
         android:gravity="center"
         android:layout_marginTop="10dp"
         />
@@ -29,14 +29,15 @@
             android:layout_toLeftOf="@+id/skipButton" >
         </EditText>
 
-        <Button android:text="Browser"
+        <Button android:text="Search"
             android:id="@+id/skipButton"
-            android:textSize="18dp"
+            android:textSize="16sp"
             android:layout_marginTop="10dp"
             android:layout_alignParentRight="true"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:onClick="getfile" >
         </Button>
+
     </RelativeLayout>
 </LinearLayout >
