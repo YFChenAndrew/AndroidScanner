@@ -21,8 +21,8 @@ public class FileChooser extends ListActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //currentDir = new File(Environment.getExternalStorageDirectory().getPath());
-        currentDir = new File("/");
-        //currentDir = new File("/mnt/sdcard0/");
+        //currentDir = new File("/");
+        currentDir = new File("/mnt/sdcard0/");
         fill(currentDir);
     }
 
